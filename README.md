@@ -7,4 +7,4 @@ https://www.cnblogs.com/cxk1995/p/5800196.html
 这是用GIT上传到GitHub的上的上的简单方法。
 
 
-![文字](https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2959708265,3856768320&fm=58&bpow=705&bpoh=675)
+![text](https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2959708265,3856768320&fm=58&bpow=705&bpoh=675)
