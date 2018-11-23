@@ -6,4 +6,5 @@ https://www.cnblogs.com/cxk1995/p/5800196.html
 
 这是用GIT上传到GitHub的上的上的简单方法。
 
-! [text ](/Users/DELL/DesktopIMG_20181120_164010.jpg)
+
+![text] (https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2959708265,3856768320&fm=58&bpow=705&bpoh=675)
