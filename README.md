@@ -1,10 +1,21 @@
 # vuenav
-这是一个用vue做的一个导航网页
 
-看这个教程学会的上传代码
-https://www.cnblogs.com/cxk1995/p/5800196.html 
+> a vue nav website project
 
-这是用GIT上传到GitHub的上的上的简单方法。
+## Build Setup
 
+``` bash
+# install dependencies
+npm install
 
-![text](https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2959708265,3856768320&fm=58&bpow=705&bpoh=675)
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
