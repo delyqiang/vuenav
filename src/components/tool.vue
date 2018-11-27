@@ -2,6 +2,7 @@
   <div class="tool">
       <a :href="item.toolLink" v-for="(item,index) in toolArr.result" :key="index" target="_blank">
              <div class="inlineBorder">
+                  <img class="toolBackImg" :src="item.toolImg" alt="">
                 <h4>{{item.toolName}}</h4>
                 <p>{{item.toolDetails}}</p>
         </div>
@@ -61,5 +62,20 @@ a h4{
 a p{
     font-size: 12px;
     color: #999;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    margin: 0;
+    top: 60px;
+}
+.toolBackImg{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    border: 1px solid #4fc08d;
+    z-index: 0;
 }
 </style>
