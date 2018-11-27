@@ -46,4 +46,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 }
 ```
 
-![Alt text](https://github.com/Alexisme1995/SupermarketManagerSystem/raw/master/image/1.jpg)
+![Alt text](http://www.wogeshi.lidongliang44/images/m5.png)
