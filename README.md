@@ -20,7 +20,9 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-这是测试
+效果图如下
+
+![Alt text](http://wogeshi.lidongliang4444.cn/images/m6.png)
 
 ## 11.27
 对移动端做了兼容，样式上做了媒体查询（主要是对底部做了兼容）
