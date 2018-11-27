@@ -21,7 +21,7 @@
                     </el-tab-pane> -->
                 </el-tabs>
         </el-col>
-        <el-col  :xs="8" :sm="6" :md="4" :lg="4" :xl="4" class="rightInfo">
+        <el-col  :xs="20" :sm="20" :md="4" :lg="4" :xl="4" class="rightInfo">
             <!-- <el-card class="box-card">
                 <div slot="header" class="clearfix">
                     <span>推荐资讯</span>
@@ -64,11 +64,11 @@
                     <div>
                     前端技术导航，关注前端动态，分享、交流、保持友善。
                     </div> 
-                    <div>欢迎关注公众号: 学前端呢 </div>
-                    <div>
+                    <div class="mHide">欢迎关注公众号: 学前端呢 </div>
+                    <div class="mHide">
                     <a>DeLyQiang</a>　　　&copy;2018 DeLyQiang Web Navigation v1.0 
                     </div>
-                    <div>
+                    <div class="mHide">
                         <a href="mailto:dailiqiang_6@163.com">
                     商业合作联系邮箱: dailiqiang_6@163.com
                         </a>
@@ -297,5 +297,16 @@ footer .infoLink{
 }
 .info .wechart{
     width: 80px;
+}
+@media screen and (max-width:7200px) {
+  .colRela {
+        margin-bottom: 15px;
+    }
+    .rightInfo {
+        margin-bottom: 70px;
+    }
+    .mHide{
+        display: none;
+    }
 }
 </style>
