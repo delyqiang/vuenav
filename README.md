@@ -20,6 +20,9 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+
+预览链接：http://wogeshi.lidongliang4444.cn/
+
 效果图如下
 
 ![Alt text](http://wogeshi.lidongliang4444.cn/images/m6.png)
