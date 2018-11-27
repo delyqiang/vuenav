@@ -26,13 +26,20 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 对移动端做了兼容，样式上做了媒体查询
 
 @media screen and (max-width:7200px) {
+
   .colRela {
         margin-bottom: 15px;
     }
+    
+    
     .rightInfo {
         margin-bottom: 70px;
     }
+    
+    
     .mHide{
         display: none;
     }
+    
+    
 }
