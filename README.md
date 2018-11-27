@@ -23,7 +23,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 这是测试
 
 ## 11.27
-对移动端做了兼容，样式上做了媒体查询
+对移动端做了兼容，样式上做了媒体查询（主要是对底部做了兼容）
 ``` bash
 
 @media screen and (max-width:7200px) {
@@ -45,3 +45,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     
 }
 ```
+
+![Alt text](https://github.com/Alexisme1995/SupermarketManagerSystem/raw/master/image/1.jpg)
