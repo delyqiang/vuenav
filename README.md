@@ -24,7 +24,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## 11.27
 对移动端做了兼容，样式上做了媒体查询
-
+``` bash
 
 @media screen and (max-width:7200px) {
 
@@ -44,3 +44,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     
     
 }
+```
