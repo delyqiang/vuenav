@@ -46,4 +46,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 }
 ```
 
-![Alt text](http://http://wogeshi.lidongliang4444.cn/images/m5.png)
+![Alt text](http://wogeshi.lidongliang4444.cn/images/m5.png)
