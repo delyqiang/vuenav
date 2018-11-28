@@ -14,6 +14,11 @@
   <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
   <script>
   $(function() {
+//     console.log('%c this is a message','color:#0f0;')
+// console.log('%c this %c is a %c message','color:#f00;','font-size:20px;','color:blue;background:yellow;')
+　　console.log("%c ", "background: url(http://wogeshi.lidongliang4444.cn/images/toux.jpg) no-repeat center;padding-left:80px;padding-bottom: 80px;border-radius:50%;background-size:100%;")
+　　console.log("%c ", "background: url(http://p3i10hjs7.bkt.clouddn.com/console.jpeg) no-repeat center;padding-left:640px;padding-bottom: 242px;")
+
       var a_idx = 0,
           b_idx = 0;
       c_idx = 0;
@@ -37,6 +42,7 @@
                   "font-size": c[c_idx] + "px",
                   "color": b[b_idx]
               });
+              console.log('')
               $("body").append($i);
               $i.animate({
                   "top": y - 180,

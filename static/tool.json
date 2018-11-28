@@ -119,6 +119,13 @@
         "toolId":"17",
         "toolLink":"https://www.ih5.cn/",
         "toolImg":"http://www.lgstatic.com/thumbnail_300x300/i/image/M00/01/56/Cgp3O1Zn1daADpq6AAAXNPykUjo733.png"
+    },
+    {
+        "toolName":"稿定抠图",
+        "toolDetails":"在线抠图",
+        "toolId":"17",
+        "toolLink":"https://www.gaoding.com/koutu",
+        "toolImg":"https://pp.myapp.com/ma_icon/0/icon_12190422_1542894158/96"
     }
     ],
     "home":[
@@ -180,7 +187,7 @@
         },
         {
             "toolName":"qq邮箱",
-            "toolDetails":"网易邮箱",
+            "toolDetails":"qq邮箱",
             "toolId":"9",
             "toolLink":"https://mail.qq.com",
             "toolImg":"https://tse1-mm.cn.bing.net/th?id=OIP.KAWU81CHVK1DZOP6yZVXSgAAAA&pid=Api&w=300&h=300&rs=1&p=0"
@@ -201,28 +208,28 @@
         },
         {
             "toolName":"掘金",
-            "toolDetails":"csdn-专业IT技术社区",
+            "toolDetails":"掘金",
             "toolId":"12",
             "toolLink":"https://juejin.im",
             "toolImg":"https://gold-cdn.xitu.io/images/app/logo.png"
         },
         {
             "toolName":"简书",
-            "toolDetails":"csdn-专业IT技术社区",
+            "toolDetails":"简书",
             "toolId":"13",
             "toolLink":"https://www.jianshu.com/",
             "toolImg":"https://upload.jianshu.io/collections/images/1/%E7%BA%AF%E6%96%B9%E5%BD%A2.png?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240"
         },
         {
             "toolName":"博客园",
-            "toolDetails":"csdn-专业IT技术社区",
+            "toolDetails":"博客园",
             "toolId":"14",
             "toolLink":"https://www.cnblogs.com/",
             "toolImg":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542953642511&di=0f067fbfadd0aa45bbf4684fd9410875&imgtype=0&src=http%3A%2F%2Fi-3.yxdown.com%2F2016%2F3%2F19%2Fd4d45334-c517-4d1e-985a-c20630e1a8ab.jpg"
         },
         {
             "toolName":"知乎",
-            "toolDetails":"csdn-专业IT技术社区",
+            "toolDetails":"逼乎分享你刚编的故事",
             "toolId":"15",
             "toolLink":"https://www.zhihu.com",
             "toolImg":"https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1543234826889&di=ffbcf527a1c29f809d741b25eb4afc9c&imgtype=0&src=http%3A%2F%2Fimg2.16pic.com%2F00%2F56%2F07%2F16pic_5607016_s.jpg"

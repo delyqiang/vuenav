@@ -17,7 +17,9 @@ export default {
 
 <style>
 body{
-  margin: 0;
+    margin: 0;
+    background-image: url(https://www.sqyai.com/zb_users/theme/brieflee/style/images/bg.png);
+    background-color: #FBFBFB;
 }
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

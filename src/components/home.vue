@@ -2,7 +2,7 @@
   <div>
       <h3 class="homeTitle">常用</h3>
       <div  class="tool">
-            <a :href="item.toolLink" v-for="(item,index) in toolArr.home" :key="index" target="_blank">
+            <a :href="item.toolLink" v-for="(item,index) in toolArr.home" :key="index" target="_blank" :title="item.toolName">
              <div class="inlineBorder">
                   <img class="toolBackImg" :src="item.toolImg" alt="">
                 <h4>{{item.toolName}}</h4>
@@ -12,7 +12,7 @@
       </div>
       <h3 class="homeTitle">vue</h3>
       <div  class="tool">
-            <a :href="item.toolLink" v-for="(item,index) in toolArr.vue" :key="index" target="_blank">
+            <a :href="item.toolLink" v-for="(item,index) in toolArr.vue" :key="index" target="_blank"  :title="item.toolName">
              <div class="inlineBorder">
                 <h4>{{item.toolName}}</h4>
                 <p>{{item.toolDetails}}</p>
@@ -21,7 +21,7 @@
       </div>
       <h3 class="homeTitle">微信</h3>
       <div  class="tool">
-            <a :href="item.toolLink" v-for="(item,index) in toolArr.wechart" :key="index" target="_blank">
+            <a :href="item.toolLink" v-for="(item,index) in toolArr.wechart" :key="index" target="_blank"  :title="item.toolName">
              <div class="inlineBorder">
                 <h4>{{item.toolName}}</h4>
                 <p>{{item.toolDetails}}</p>
@@ -30,7 +30,7 @@
       </div>
       <h3 class="homeTitle">友链</h3>
       <div  class="tool">
-            <a :href="item.toolLink" v-for="(item,index) in toolArr.link" :key="index" target="_blank">
+            <a :href="item.toolLink" v-for="(item,index) in toolArr.link" :key="index" target="_blank"  :title="item.toolName">
              <div class="inlineBorder">
                 <h4>{{item.toolName}}</h4>
                 <p>{{item.toolDetails}}</p>
@@ -39,7 +39,7 @@
       </div>
       <h3 class="homeTitle">娱乐</h3>
       <div  class="tool">
-            <a :href="item.toolLink" v-for="(item,index) in toolArr.entertainment" :key="index" target="_blank">
+            <a :href="item.toolLink" v-for="(item,index) in toolArr.entertainment" :key="index" target="_blank"  :title="item.toolName">
              <div class="inlineBorder">
                   <img class="toolBackImg" :src="item.toolImg" alt="">
                 <h4>{{item.toolName}}</h4>

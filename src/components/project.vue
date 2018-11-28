@@ -2,7 +2,7 @@
 <div>
     <h3 class="homeTitle">myProject</h3>
         <div  class="tool">
-        <a :href="item.toolLink" v-for="(item,index) in toolArr.project" :key="index" target="_blank">
+        <a :href="item.toolLink" v-for="(item,index) in toolArr.project" :key="index" target="_blank"  :title="item.toolName">
                 <div class="inlineBorder">
                     <img class="toolBackImg" :src="item.toolImg" alt="">
                 <h4>{{item.toolName}}</h4>
@@ -12,7 +12,7 @@
     </div>
     <h3 class="homeTitle">小资H5</h3>
         <div  class="tool">
-        <a :href="item.toolLink" v-for="(item,index) in toolArr.xiaozi" :key="index" target="_blank">
+        <a :href="item.toolLink" v-for="(item,index) in toolArr.xiaozi" :key="index" target="_blank"  :title="item.toolName">
                 <div class="inlineBorder">
                 <h4>{{item.toolName}}</h4>
                 <p>{{item.toolDetails}}</p>
@@ -21,7 +21,7 @@
     </div>
     <h3 class="homeTitle">pilipaH5</h3>
         <div  class="tool">
-        <a :href="item.toolLink" v-for="(item,index) in toolArr.pilipa" :key="index" target="_blank">
+        <a :href="item.toolLink" v-for="(item,index) in toolArr.pilipa" :key="index" target="_blank"  :title="item.toolName">
                 <div class="inlineBorder">
                 <h4>{{item.toolName}}</h4>
                 <p>{{item.toolDetails}}</p>
@@ -30,7 +30,7 @@
     </div>
     <h3 class="homeTitle">微信扫码的h5</h3>
         <div  class="tool">
-        <a :href="item.toolLink" v-for="(item,index) in toolArr.wechartProject" :key="index" target="_blank">
+        <a :href="item.toolLink" v-for="(item,index) in toolArr.wechartProject" :key="index" target="_blank"  :title="item.toolName">
                 <div class="inlineBorder">
                 <h4>{{item.toolName}}</h4>
                 <p>{{item.toolDetails}}</p>

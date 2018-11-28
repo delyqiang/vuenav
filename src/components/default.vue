@@ -21,7 +21,7 @@
                     </el-tab-pane> -->
                 </el-tabs>
         </el-col>
-        <el-col  :xs="20" :sm="20" :md="4" :lg="4" :xl="4" class="rightInfo">
+        <el-col  :xs="20" :sm="8" :md="4" :lg="4" :xl="4" class="rightInfo">
             <!-- <el-card class="box-card">
                 <div slot="header" class="clearfix">
                     <span>推荐资讯</span>
@@ -298,7 +298,7 @@ footer .infoLink{
 .info .wechart{
     width: 80px;
 }
-@media screen and (max-width:7200px) {
+@media screen and (max-width:992px) {
   .colRela {
         margin-bottom: 15px;
     }
