@@ -1,6 +1,6 @@
 <template>
   <div class="tool">
-      <a :href="item.toolLink" v-for="(item,index) in toolArr.result" :key="index" target="_blank">
+      <a :href="item.toolLink" v-for="(item,index) in toolArr.result" :key="index" target="_blank"  :title="item.toolName">
              <div class="inlineBorder">
                   <img class="toolBackImg" :src="item.toolImg" alt="">
                 <h4>{{item.toolName}}</h4>
