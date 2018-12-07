@@ -15,6 +15,10 @@
                          <span slot="label"><i class="el-icon-tickets"></i> 项目</span>
                         <Project></Project>
                     </el-tab-pane>
+                    <el-tab-pane>
+                         <span slot="label"><i class="el-icon-tickets"></i> 机器人</span>
+                        <Robot></Robot>
+                    </el-tab-pane>
                     <!-- <el-tab-pane name="second">
                           <span slot="label"><i class="el-icon-mobile-phone"></i> 资讯</span>
                         <Info></Info>   
@@ -103,8 +107,9 @@ import Info from './info'
 import Tool from './tool'
 import Home from './home'
 import Project from './project'
+import Robot from './robot'
 export default {
-   components: { Info,Tool ,Home,Project},
+   components: { Info,Tool ,Home,Project,Robot},
   data () {
     return {
      tactiveName:'',
