@@ -53,3 +53,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 如图： 
 
 ![Alt text](http://wogeshi.lidongliang4444.cn/images/m5.png)
+
+
+有疑问的可以加我微信 
+![Alt text](https://mmbiz.qpic.cn/mmbiz_png/ibhPneVib7GU22B7jv5r45dojP8JIyYSPgFeSd3v1TMbic8qsexFdPe6dx9iaLV1xJaLrtlzB39HxwtSAGO80MT2gA/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
