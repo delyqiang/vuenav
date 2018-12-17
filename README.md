@@ -55,6 +55,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ![Alt text](http://wogeshi.lidongliang4444.cn/images/m5.png)
 
 
-有疑问的可以加我微信 
-![Alt text](https://mmbiz.qpic.cn/mmbiz_png/ibhPneVib7GU22B7jv5r45dojP8JIyYSPgFeSd3v1TMbic8qsexFdPe6dx9iaLV1xJaLrtlzB39HxwtSAGO80MT2gA/640)
-
+有疑问的可以加我微信 QQQ466125 
+欢迎关注公众号： 学前端呢
