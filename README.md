@@ -56,4 +56,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 有疑问的可以加我微信 QQQ466125 
+
 欢迎关注公众号： 学前端呢
