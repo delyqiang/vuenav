@@ -1,5 +1,6 @@
 <template>
      <div id="container">
+<<<<<<< HEAD
         <div class="header">
             <span style="float: left;">黑聊,专注于舒缓情绪</span>
             <span style="float: right;">今天</span>
@@ -26,6 +27,9 @@
             <input v-model.trim="message" id="text" type="text" @keyup.enter="send" placeholder="说点什么吧..." />
             <span @click="send" id="btn">发送</span>
         </div>
+=======
+       <iframe :src="src"></iframe>
+>>>>>>> master
     </div>
 </template>
 
@@ -34,6 +38,10 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
+<<<<<<< HEAD
+=======
+      src: 'http://wogeshi.lidongliang4444.cn/04tulingRobot/',
+>>>>>>> master
       toolArr:[],//资讯
       input:'',
         // 聊天数组
@@ -96,6 +104,7 @@ export default {
         margin: 20px auto 0;
         position: relative;
         box-shadow: 20px 20px 55px #777;
+<<<<<<< HEAD
       }
       .header {
         background: #000;
@@ -197,5 +206,12 @@ export default {
       .content li span.spanright {
         float: right;
         background: #7cfc00;
+=======
+        padding: 20px;
+      }
+      #container iframe{
+        width: 100%;
+        height: 100%;
+>>>>>>> master
       }
 </style>
