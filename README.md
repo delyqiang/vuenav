@@ -61,4 +61,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 欢迎关注公众号： 学前端呢
 
-嘤嘤嘤
+嘤
