@@ -66,16 +66,13 @@ export default {
         overflow: hidden;
       }
       #container {
-        width: 450px;
-        height: 780px;
-        background: #eee;
-        margin: 20px auto 0;
-        position: relative;
-        box-shadow: 20px 20px 55px #777;
-        padding: 20px;
+        width: 100%;
+        min-height: 650px;
+        background: #fff;
       }
       #container iframe{
         width: 100%;
-        height: 100%;
+        height: 753px;
+        border: none;
       }
 </style>
