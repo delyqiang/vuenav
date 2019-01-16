@@ -25,10 +25,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 效果图如下
 
-![Alt text](http://wogeshi.lidongliang4444.cn/images/m6.png)
-
-
-
+！[替代文字]（https://attachments.tower.im/tower/6f7ed0983bbdf87a99555a6457df1db1?version=auto)
 
 ## 亮点
 
@@ -57,29 +54,9 @@ PS：我把这个网址给设置为谷歌浏览器的默认网址，打开就可
 对移动端做了兼容，样式上做了媒体查询（主要是对底部做了兼容）
 ``` bash
 
-@media screen and (max-width:7200px) {
-
-  .colRela {
-        margin-bottom: 15px;
-    }
-    
-    
-    .rightInfo {
-        margin-bottom: 70px;
-    }
-    
-    
-    .mHide{
-        display: none;
-    }
-    
-    
+111
 }
 ```
-如图： 
-
-![Alt text](http://wogeshi.lidongliang4444.cn/images/m5.png)
-
 
 有疑问的可以加我微信 QQQ466125 
 
