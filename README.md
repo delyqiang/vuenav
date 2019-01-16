@@ -25,7 +25,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 效果图如下
 
-![替代文字](https://attachments.tower.im/tower/6f7ed0983bbdf87a99555a6457df1db1?version=auto)
+![image](https://attachments.tower.im/tower/6f7ed0983bbdf87a99555a6457df1db1?version=auto)
 
 ## 亮点
 
