@@ -27,7 +27,12 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ![Alt text](http://wogeshi.lidongliang4444.cn/images/m6.png)
 
+
+
+
 ##亮点
+
+
 
 1.可以把平时用的网站都放到这个项目里的tool.json的json文件里 ，(这个文件位置在\static\tool.json)解决了网址过多，收藏不过来的通点
 
@@ -41,8 +46,10 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 6.可以接触到更多我收藏的有价值的网址、常用的网站，这样工作起来比较有效率。
 
-PS：我把这个网址给设置为谷歌浏览器的默认网址，打开就可以使用，
+PS：我把这个网址给设置为谷歌浏览器的默认网址，打开就可以使用
+
 再次PS：会持续更新的，有更好的建议记得Lssuse留言，也可以加我好友，关注公众号：学前端呢 公众号微信：web66666688，想进群的可以加我好友，我的微信QQQ466125，备注‘github进群’
+
 
 ## 11.27
 对移动端做了兼容，样式上做了媒体查询（主要是对底部做了兼容）
