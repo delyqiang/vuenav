@@ -25,7 +25,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 效果图如下
 
-![image](https://attachments.tower.im/tower/6f7ed0983bbdf87a99555a6457df1db1?version=auto)
 
  ![image](https://alioss.tower.im/737918/6f7ed0983bbdf87a99555a6457df1db1?Expires=1547626230&OSSAccessKeyId=LTAIxLlUqJXhFTHz&Signature=4nBp6f9Wc%2FFCU5Sz5hIEpdEsCvg%3D&response-content-disposition=inline%3Bfilename%3D%22image.png%22&response-content-type=image%2Fpng)
 
