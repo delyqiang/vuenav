@@ -27,6 +27,8 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ![image](https://attachments.tower.im/tower/6f7ed0983bbdf87a99555a6457df1db1?version=auto)
 
+ ![image](https://attachments.tower.im/tower/6f7ed0983bbdf87a99555a6457df1db1)
+
 ## 亮点
 
 
