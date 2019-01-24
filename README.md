@@ -22,6 +22,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 预览链接：http://wogeshi.lidongliang4444.cn/
+预览链接2：http://www.imdlq.com
 
 效果图如下
 
@@ -63,4 +64,4 @@ PS：我把这个网址给设置为谷歌浏览器的默认网址，打开就可
 
 ### 2019.01.24说明
 
-## 由于本人对百度的所作所为深恶痛绝（竞价广告/百家号/对手打压），所以对其降权处理，让他放到最后面，令其也感受下被安排。
+#### 由于本人对百度的所作所为深恶痛绝（竞价广告/百家号/对手打压），所以对其降权处理，让他放到最后面，令其也感受下被安排。
