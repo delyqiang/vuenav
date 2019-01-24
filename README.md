@@ -26,7 +26,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 效果图如下
 
 
- ![image](blob:https://www.douban.com/87051fb5-ae47-499c-b0e0-bd625e172e06)
+ ![image](https://img3.doubanio.com/view/group_topic/l/public/p158933252.webp)
 
 ## 亮点
 
