@@ -1,7 +1,7 @@
 <template>
     <el-row >
         <el-col class="colRela" :xs="20" :sm="20" :md="17" :lg="14" :xl="14"  :offset='1'>
-            <img src="./../../static/img/logo.png" class="logo" alt="">
+            <img src="./../../static/img/logo1.png" class="logo" alt="">
                 <el-tabs type="border-card" v-model="tactiveName">
                     <el-tab-pane>
                          <span slot="label"><i class="el-icon-menu"></i> 主页</span>
@@ -140,10 +140,28 @@ export default {
         else {
           this.backTopShow=false;
         }
-      }
+      },
+　　_isMobile() {
+			let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+			return flag;
+		},
+		locationRouter(){
+            if (this._isMobile()) {
+                // alert("手机端");
+                this.$router.replace('/h5');
+            } else {
+                // alert("pc端");
+                this.$router.replace('/');
+            }
+		}
     },
-  created() {
-    }
+    mounted() {
+	  this.locationRouter()
+	    var that = this;
+        window.onresize = function temp() {
+        that.locationRouter()
+	};
+  }
 }
 
 </script>
@@ -161,10 +179,10 @@ export default {
 }
 .el-tabs__nav-scroll {
     overflow: hidden;
-    background-color: #4fc08d !important;
+    background-color: #689eff !important;
 }
 .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active {
-    color: #4fc08d !important;
+    color: #689eff !important;
       font-weight: bold;
 }
 .el-tabs--border-card>.el-tabs__header .el-tabs__item {
@@ -174,19 +192,19 @@ export default {
     color: #fff !important;
 }
 .el-tabs--border-card>.el-tabs__header .el-tabs__item.is-active:hover {
-    color: #4fc08d !important;
+    color: #689eff !important;
 }
 .el-card__header {
     padding: 9px 20px;
     border-bottom: 1px solid #ebeef5;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    background: #4fc08d;
+    background: #689eff;
     color:#fff;
     font-size: 14px;
 }
 .el-card__body{
-    color: #4fc08d;
+    color: #689eff;
     font-size: 14px;
     padding: 9px 20px;
 }
@@ -212,9 +230,9 @@ export default {
 }
 .logo{
     position: absolute;
-    top: -74px;
-    left: 30px;
-    width: 75px;
+    top: -66px;
+    left: 13px;
+    width: 136px;
     -webkit-transition: all 1.6s;
     transition: all 1.6s;
     -webkit-transition: all 1.6s cubic-bezier(0.17, 0.67, 0.62, 1.22);
@@ -298,7 +316,7 @@ footer .infoLink{
   line-height:20px;
 }
 .bg-color {
-  background-color: #41b883;
+  background-color: #689eff;
 }
 .info .wechart{
     width: 80px;

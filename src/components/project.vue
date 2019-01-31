@@ -107,11 +107,11 @@ a p{
     width: 80px;
     height: 80px;
     border-radius: 80px;
-    border: 1px solid #4fc08d;
+    border: 1px solid #689eff;
     z-index: 0;
 }
 .homeTitle{
-    color: #4fc08d;
+    color: #689eff;
     text-align: left;
     padding-left: 16px;
 }

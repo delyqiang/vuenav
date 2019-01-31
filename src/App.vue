@@ -11,11 +11,49 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+	data() {
+		return{
+		//   clientHeight: '',  // 这里是给到了一个默认值 （这个很重要）
+		}
+	},
+  watch: {
+
+        },
+	methods: {
+　　_isMobile() {
+			let flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+			return flag;
+		},
+		locationRouter(){
+			    if (this._isMobile()) {
+					this.$router.replace('/h5');
+				} else {
+					this.$router.replace('/');
+				}
+		}
+	},
+ mounted() {
+	  this.locationRouter()
+	  var that = this;
+    window.onresize = function temp() {
+		that.locationRouter()
+	};
+	
+	
+
+  }
+
 }
+
 </script>
 
-<style>
+<style scoped>
+::-moz-selection{background:#ff07f6;color: #fff;} 
+::selection {
+    background: #ff07f6;
+	color: #fff;
+}
 body{
     margin: 0;
     background-image: url(https://www.sqyai.com/zb_users/theme/brieflee/style/images/bg.png);

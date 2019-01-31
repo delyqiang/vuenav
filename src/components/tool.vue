@@ -75,7 +75,7 @@ a p{
     width: 80px;
     height: 80px;
     border-radius: 80px;
-    border: 1px solid #4fc08d;
+    border: 1px solid #689eff;
     z-index: 0;
 }
 </style>

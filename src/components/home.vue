@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-loading.fullscreen.lock="fullscreenLoading">
       <h3 class="homeTitle">常用</h3>
       <div  class="tool">
             <a :href="item.toolLink" v-for="(item,index) in toolArr.home" :key="index" target="_blank" :title="item.toolName">
@@ -56,6 +56,7 @@ export default {
   data () {
     return {
       toolArr:[],//资讯
+      fullscreenLoading:false
     }
   },
     methods: {
@@ -63,10 +64,14 @@ export default {
      getToolJson () {
          this.$http.get('static/tool.json',{
           }).then(function(result) {
+               this.fullscreenLoading = false;
               this.toolArr=result.data
                 // console.log(this.toolArr)
           }.bind(this))
      }
+  },
+  mounted() {
+     this.fullscreenLoading = true;
   },
   created() {
       this. getToolJson()
@@ -111,7 +116,7 @@ a p{
     top: 60px;
 }
 .homeTitle{
-    color: #4fc08d;
+    color: #689eff;
     text-align: left;
     padding-left: 16px;
 }
@@ -122,7 +127,7 @@ a p{
     width: 80px;
     height: 80px;
     border-radius: 80px;
-    border: 1px solid #4fc08d;
+    border: 1px solid #689eff;
     z-index: 0;
 }
 </style>
