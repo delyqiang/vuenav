@@ -2,16 +2,48 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="content-language" content="zh-CN" />
+    <meta name="msvalidate.01" content="9A043CECD81DCE43A1ADA3594D016244" />
+    <meta name="keywords" content="DeLyQiang沐衣酱Web、前端导航、vue导航、1024网站、程序员导航、学前端呢">
+    <!-- <meta name="keywords" content="DeLyQiang沐衣酱Web">
+    <meta name="keywords" content="沐衣酱">
+    <meta name="description" content="DeLyQiang沐衣酱Web" http-equiv="Cache-Control"> -->
+    <meta name="description" content="DeLyQiang沐衣酱Web是为程序员们做的一个工具网站，为浏览器收藏网页不够提供的解决方案，是年轻人的第一个前端导航网站，公众号：学前端呢">
+  
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Web Navigation</title>
+    <title>DeLyQiang沐衣酱Web----公众号:学前端呢</title>
     <!-- <link rel="mask-icon" href="/static/img/162.png" color="#222"> -->
     <link rel="icon" type="image/x-icon" href="static/img/162.png">
+    <style type="text/css">
+        #landlord {
+            position: fixed;
+            right: 30px;
+            bottom: 0;
+            width: 280px;
+            height: 250px;
+            z-index: 1000;
+        }
+        .bingClass{
+            z-index: -1;
+            opacity: 0;
+            display: none;  
+        }
+        </style>
   </head>
   <body>
+      <h1 class="bingClass">DeLyQiang沐衣酱Web</h1>
+      <h2 class="bingClass">DeLyQiang沐衣酱Web、前端导航、vue导航、1024网站、程序员导航、学前端呢</h2>
+      <p class="bingClass">DeLyQiang沐衣酱Web是为程序员们做的一个工具网站，为浏览器收藏网页不够提供的解决方案，是年轻人的第一个前端导航网站，技术栈是html+vue，公众号：学前端呢,公众号账号:web66666688，欢迎大家关注，我是沐衣酱</p>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    
+<div id="landlord">
+    <canvas id="live2d" width="280" height="250"></canvas>
+</div>
   </body>
   <script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdn.zhangxinxu.com/sp/demo/live2d/live2d/js/live2d.js"></script>
   <script>
   $(function() {
 //     console.log('%c this is a message','color:#0f0;')
@@ -53,5 +85,23 @@
       });
       var _hmt = _hmt || [];
   })
-  </script>
+
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?2d80bf3e88e8416ea42cc8cc6b942bf4";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+
+
+
+
+    if (/zhangxinxu/.test(location.href)) {
+        loadlive2d("live2d", "https://cdn.zhangxinxu.com/sp/demo/live2d/live2d/model/tia/model.json");
+    } else {
+        loadlive2d("live2d", "https://cdn.zhangxinxu.com/sp/demo/live2d/live2d/model/tia/model.json");
+    }
+    </script>
+    
 </html>

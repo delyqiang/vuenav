@@ -398,10 +398,11 @@ iframe{
     height: 753px;
     border: none;
     }
-   .copy{
+   #chat .copy{
         font-size: 14px;
         text-align: center;
-        margin-bottom: 15px;
+        /* margin-bottom: 15px; */
         border: none;
+        margin-bottom: 35px;
 }
 </style>
